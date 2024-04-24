@@ -1,0 +1,11 @@
+p {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1em;
+  text-align: center;
+  color: #1e1e1e;
+  margin-top: -10px;
+  margin-bottom: 17px;
+}

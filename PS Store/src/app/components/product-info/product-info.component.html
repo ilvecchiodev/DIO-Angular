@@ -1,0 +1,19 @@
+<div class="info-container">
+
+  <div id="slogan">
+    {{ product_info.sell_slogan }}
+  </div>
+
+  <div id="technical">
+    <div id="media_type">
+      {{ product_info.mediaType }}
+    </div>
+    <div id="platforms">
+      <span *ngFor="let type of product_info.platforms">| {{type}} &nbsp;</span>
+    </div>
+    <div id="price">
+      {{ product_info.price | currency:'BRL' }}
+    </div>
+  </div>
+
+</div>

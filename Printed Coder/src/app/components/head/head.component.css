@@ -1,0 +1,57 @@
+.container{
+  margin:10px 0px 30px 0px;
+  display:flex;
+  flex-direction: row;
+  min-height:400px;
+}
+
+.left-side{
+  width:40%;
+  align-items: start;
+}
+
+#poster{
+  background-image: url('../../../assets/head.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+
+.right-side{
+  width:50%;
+  align-items: end;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-end;
+}
+
+.right-side > h1{
+  text-align: end;
+  margin:0px;
+  font-weight:900;
+  font-size:7em;
+  line-height: 0.80em;
+
+}
+
+.right-side > h3{
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size:1em;
+  text-align: end;
+}
+
+.right-side > h5{
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size:0.8em;
+  text-align: end;
+  margin-top:2px;
+  padding-right:14px;
+  font-weight:100;
+}

@@ -1,0 +1,20 @@
+
+.product-container{
+  display: flex;
+  flex-direction: column;
+  margin: 14px 7px;
+  min-width: 554px;
+  min-height: 830px;
+  background-size: contain;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+  align-content: space-between;
+  justify-content: flex-end;
+  border-radius:5px;
+}
+
+.product-container > app-product-info{
+  width:100%
+}

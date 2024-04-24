@@ -1,0 +1,9 @@
+<div class="product-container" [ngStyle]="{ 'background-image': 'url('+ product.cover +')' }">
+
+  <ng-container  *ngIf="product.highlight">
+    <app-product-highlight [highlightText]="product.highlight"  />
+  </ng-container>
+
+  <app-product-info [product_info]="product" />
+
+</div>

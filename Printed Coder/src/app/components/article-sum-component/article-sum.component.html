@@ -1,0 +1,9 @@
+<div class="container">
+  <img src="{{ article_sum.picture }}" >
+  <h3>{{ article_sum.title }}</h3>
+  <p id="author">por {{ article_sum.author }}</p>
+  <p>{{ article_sum.content }}</p>
+  <ng-template *ngIf="showLink">
+    <a href="#">leia mais...</a>
+  </ng-template>
+</div>

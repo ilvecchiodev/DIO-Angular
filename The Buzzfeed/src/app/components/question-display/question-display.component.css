@@ -1,0 +1,16 @@
+.question-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  min-width: 550px;
+  min-height: 170px;
+  background-color: #25242F;
+  border: 5px solid #aaff2a91;
+  border-radius: 10px;
+  margin: 20px 0px;
+  padding:20px;
+}

@@ -1,0 +1,8 @@
+<div class="article-container">
+  <div class="column-left">
+    <app-article [article]="article"></app-article>
+  </div>
+  <div class="column-right">
+    <app-articles-sum *ngFor="let article of articles_sums" [article_sum]="article"></app-articles-sum>
+  </div>
+</div>

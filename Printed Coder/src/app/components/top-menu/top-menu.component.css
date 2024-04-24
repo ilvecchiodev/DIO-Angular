@@ -1,0 +1,45 @@
+.main-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 12px;
+  margin-right: 10px;
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  height:50px
+}
+
+.container > ul  {
+  padding:0px!important;
+}
+
+.container > ul > li {
+  list-style: none;
+  display:inline;
+  margin-right:15px;
+  cursor:pointer;
+  padding:3px;
+}
+
+.container > ul > li:hover {
+  color:greenyellow
+}
+
+.container > img{
+  width:30px;
+  height:30px;
+  margin-right:10px;
+  margin-top:5px
+}

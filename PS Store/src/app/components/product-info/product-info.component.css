@@ -1,0 +1,51 @@
+.info-container {
+  display: flex;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.589);
+  height: 80px;
+  flex-direction: column;
+  align-content: space-between;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.info-container > #slogan{
+  display: flex;
+  flex-direction: start;
+  padding: 8px 18px;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.info-container > #technical{
+display: flex;
+flex-direction: row;
+color: #fff;
+font-size: 19px;
+margin-top: -5px;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+}
+
+.info-container > #technical > #media_type{
+display: flex;
+padding: 4px 9px;
+border-left: 5px solid rgb(0, 119, 255);
+margin-left: 18px;
+}
+
+.info-container > #technical > #platforms{
+display: flex;
+justify-content: center;
+}
+
+.info-container > #technical > #price{
+display: flex;
+justify-content: end;
+margin-right:20px
+}
